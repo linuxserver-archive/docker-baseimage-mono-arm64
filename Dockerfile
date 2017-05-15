@@ -4,13 +4,10 @@ MAINTAINER sparklyballs
 # environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
 
-# install packages
+# install packages
 RUN \
-# uses nightly repository as 4.8 mono currently has issues importing certificates
- apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 \
-	--recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF && \
- echo "deb http://download.mono-project.com/repo/debian nightly main" \
-	| tee /etc/apt/sources.list.d/mono-xamarin.list && \
+ apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF && \
+ echo "deb http://download.mono-project.com/repo/ubuntu xenial main" | tee /etc/apt/sources.list.d/mono-official.list && \
  apt-get update && \
  apt-get install -y \
 	--no-install-recommends \
