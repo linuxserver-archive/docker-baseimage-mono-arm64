@@ -7,7 +7,7 @@
 
 [Dockerfile](https://github.com/linuxserver/docker-baseimage-mono-arm64/blob/master/Dockerfile)
 
-[![](https://images.microbadger.com/badges/image/lsiobase/mono.arm64.svg)](https://microbadger.com/images/lsiobase/mono.arm64 "Get your own image badge on microbadger.com")[![Build Status](http://jenkins.linuxserver.io:8080/job/Dockers/job/BaseImages-arm64/job/lsiobase-mono.arm64/badge/icon)](http://jenkins.linuxserver.io:8080/job/Dockers/job/BaseImages-arm64/job/lsiobase-mono.arm64/)
+[![](https://images.microbadger.com/badges/image/lsiobase/mono.arm64.svg)](https://microbadger.com/images/lsiobase/mono.arm64 "Get your own image badge on microbadger.com")
 
 ### This base container is not aimed at public consumption. It exists to serve as a single endpoint for LinuxServer.io containers and is based upon [Ubuntu Xenial](https://hub.docker.com/_/alpine/) and [S6 overlay](https://github.com/just-containers/s6-overlay).
 
