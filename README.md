@@ -21,7 +21,7 @@
 &nbsp;
 
 
-[![](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/Dockerfile-Link-green.png)](https://github.com/linuxserver/docker-baseimage-mono/blob/master/Dockerfile)
+[![](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/Dockerfile-Link-green.png)](https://github.com/linuxserver/docker-baseimage-mono-arm64/blob/master/Dockerfile)
 
 [![](https://images.microbadger.com/badges/image/lsiobase/mono.arm64.svg)](https://microbadger.com/images/lsiobase/mono.arm64 "Get your own image badge on microbadger.com")
 
