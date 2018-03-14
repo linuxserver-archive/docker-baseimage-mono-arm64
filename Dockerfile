@@ -1,4 +1,4 @@
-FROM lsiobase/xenial.arm64
+FROM lsiobase/ubuntu.arm64:xenial
 MAINTAINER sparklyballs
 
 # environment settings
